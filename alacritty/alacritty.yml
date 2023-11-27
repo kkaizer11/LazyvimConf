@@ -6,9 +6,31 @@ import:
 #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 window:
   dimensions:
-    columns: 170
-    lines: 45
+    columns: 155
+    lines: 43
   title: Alacritty
   decorations: none
   opacity: 0.81
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Medium
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: ExtraBold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: MediumItalic  
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold italic
+  size: 13
+
+cursor: 
+  style: 
+    shape: Block
+    blinking: Always 
+    blink-interval: 750
+
 
